@@ -1,5 +1,5 @@
 footer {
-    background-color: #230707;
+    background-color: rgb(240, 238, 238);
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -34,6 +34,7 @@ footer {
 }
 
 .footer-column ul li a:hover {
-    color: rgb(244, 216, 57);
+    transition-duration: 500ms;
+    color: black;
 }
 
