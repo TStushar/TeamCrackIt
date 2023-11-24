@@ -1,0 +1,75 @@
+.header{
+    background-color: #230707;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.header-container{
+    background-color: #230707;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 15px 25px 15px 25px;
+}
+
+.header-logo{
+    align-items: center;
+    width: 70px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.header-logo img{
+    width: 40px;
+}
+.header-logo img:hover{
+    transition: all;
+    transition-duration: 600ms;
+    width: 42px;
+}
+
+.header-nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-item ul{
+    
+}
+.header-nav-items ul a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #9c6f06;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.header-nav-items ul a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e0a00a;
+}
+
+.user-account-logo img{
+    height: 25px;
+}
+
+.user-account{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.user-account-userId p{
+    font-weight: bold;
+    color: white;
+    margin: 0 0 0 5px;
+}
+
+.user-account-userId p:hover{
+    color: rgb(230, 161, 161);
+}
